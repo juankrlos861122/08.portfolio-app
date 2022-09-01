@@ -1,0 +1,61 @@
+@import './variables.scss';
+
+.container-experience {
+  width: 100%;
+  max-width: 592px;
+  height: fit-content;
+  padding: 20px 32px;
+  border-radius: 12px;
+  background-color: $white-color;
+  box-shadow: $section-shadow;
+
+  >h2 {
+    margin-block-end: 44px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+    color: $text-primary-color;
+  }
+
+  .experience-detail {
+    display: flex;
+    margin-block-end: 36px;
+
+    img {
+      width: 100%;
+      max-width: 119px;
+      justify-self: center;
+      margin-inline-end: 24px;
+      object-fit: contain;
+    }
+
+    .detail-text {
+
+      p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.7rem;
+        color: $text-secondary-color;
+      }
+
+      h3 {
+        margin-block-start: 12px;
+        margin-block-end: 33px;
+
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2rem;
+        color: $black-color;
+      }
+    }
+  }
+}
+
+.container-experience.example2 {
+  width: 413px;
+  margin-block-end: 44px;
+
+  .experience-detail img {
+    width: 84px;
+  }
+}

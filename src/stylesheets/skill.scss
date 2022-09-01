@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+.container-skills {
+  width: 100%;
+  height: fit-content;
+  max-width: 415px;
+  padding: 24px;
+  margin-block-end: 42px;
+  border-radius: 12px;
+  box-shadow: $section-shadow;
+  background-color: $white-color;
+
+  >h2 {
+    text-transform: uppercase;
+    margin-block-end: 16px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    color: $text-primary-color;
+  }
+
+  .skills-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 16px;
+        
+    label {
+      text-transform: capitalize;
+      width: 40%;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+
+    progress {
+      width: 60%;
+      height: 16px;
+    }       
+  }
+}
+
+.type-skill.example2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

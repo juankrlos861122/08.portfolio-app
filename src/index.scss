@@ -1,0 +1,17 @@
+@import './stylesheets/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 62.5%;
+}
+
+body {
+    background-color: $background-color;
+    font-family: $font-Montserrat;
+}
